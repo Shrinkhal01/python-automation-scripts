@@ -16,18 +16,20 @@ This script organizes files in the Downloads folder by moving them into categori
 
 2. Navigate to the project directory:
    ```
-   cd python-automation-scripts
+   cd file-organizing-automation
    ```
 
 3. Run the script:
    ```
-   python scripts/dirmng.py
+   python dirmng.py
    ```
 
 ## Requirements
 
 - Python 3.x
 - Required libraries: `os`, `shutil` (These are part of the Python standard library and do not require separate installation)
+- pip install os 
+- pip install shutil
 
 ## Contributing
 
