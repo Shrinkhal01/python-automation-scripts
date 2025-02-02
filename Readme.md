@@ -1,40 +1,58 @@
 # Python Automation Scripts
+This repository contains a collection of Python scripts designed to automate various tasks, improving efficiency and productivity.
 
-Welcome to the Python Automation Scripts repository! This repository contains a collection of personal scripts that automate various tasks to enhance productivity and streamline workflows.
+# Scripts Included
+1. Backup Automation
+This script automates the backup process by directly uploading files to Google Drive.
 
-## Scripts
+2. File Organizing Automation
+This script organizes files by sorting them and placing them into folders based on their file extensions.
 
-### dirmng.py
-This script organizes files in the Downloads folder by moving them into categorized folders based on their file types. The categories include Documents, Images, Music, Videos, Archives, Code, and Others.
+3. System Monitor
+This script functions similarly to the task manager in Windows, monitoring system resources and alerting the user if excessive usage is detected.
 
-## Usage
+# Installation
+To run these scripts, you need to have Python installed on your system. You can download it from python.org.
 
-1. Clone the repository to your local machine:
-   ```
-   git clone https://github.com/Shrinkhal01/Automation-scripts.git
-   ```
+```
+# Clone this repository
+git clone https://github.com/Shrinkhal01/python-automation-scripts.git
+```
 
-2. Navigate to the project directory:
-   ```
-   cd file-organizing-automation
-   ```
+# Navigate to the repository directory
+```
+cd python-automation-scripts
+```
 
-3. Run the script:
-   ```
-   python dirmng.py
-   ```
+# Usage
+- Backup Automation
+- Navigate to the backup_automation directory and run the script:
 
-## Requirements
+```
+cd backup_automation
+python backup_script.py
+```
+# File Organizing Automation
 
-- Python 3.x
-- Required libraries: `os`, `shutil` (These are part of the Python standard library and do not require separate installation)
-- pip install os 
-- pip install shutil
+- Navigate to the file_organizing directory and run the script:
 
-## Contributing
+```
+cd file_organizing
+python organize_files.py
+```
 
-Feel free to contribute by adding your own automation scripts or improving existing ones. Please submit a pull request for any changes you would like to propose.
+# System Monitor
+Navigate to the system_monitor directory and run the script:
 
-## License
+```
+cd system_monitor
+python monitor.py
+```
+# Contributing
+- Contributions are welcome! Please open an issue or submit a pull request.
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+# License
+- This project is licensed under the MIT License.
+
+# Contact
+- For any inquiries, please contact the repository owner.
