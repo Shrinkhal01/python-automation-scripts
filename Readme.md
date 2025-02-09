@@ -19,6 +19,7 @@ To run these scripts, you need to have Python installed on your system. You can 
 git clone https://github.com/Shrinkhal01/python-automation-scripts.git
 ```
 
+
 # Navigate to the repository directory
 ```
 cd python-automation-scripts
